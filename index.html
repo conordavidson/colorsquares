@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Color Pixel Fill</title>
+		<meta charset="utf8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="colorBlocks.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata:400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="controls">
+			<form>
+				Number of blocks:*<br>
+				<input type="text" name="blockNumber"><br>
+				Frame width:*<br>
+				<input type="text" name="frameWidth"><br>
+				or fill window?
+				<input type="checkbox" name="fillWindow"><br><br>
+				Color range (0-255):<br>
+				<input type="text" name="colorRange"><br>
+				Block size (pixels)*:<br>
+				<input type="text" name="pixelSize"><br>
+				Block size range(+-):<br>
+				<input type="text" name="pixelSizeRange"><br>
+				<input type="button" id="submit" value="Build out">
+			</form>
+
+		</div>
+		<div id="canvas"></div>
+	</body>
+</html>
